@@ -358,11 +358,3 @@ df = pd.DataFrame({
 df
 
 model.predict(df)
-
-"""# Streamlit"""
-
-!pip install -q streamlit
-
-!wget -q -O - ipv4.icanhazip.com
-
-! streamlit run app.py & npx localtunnel --port 8501
